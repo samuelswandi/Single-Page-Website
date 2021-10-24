@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <title>Movie Design</title>
+</head>
+
+<body>
+
+
+    <div id="navbar" class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">MovieList</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <a href="index.html">
+                        <button class="menu-list-item-active">Home</button>
+                    </a>
+                    <!-- <button class="menu-list-item">About</button> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="container2">
+                <div class="content-container2">
+                    <div class="featured-content2" style="
+                background: linear-gradient(
+                    to bottom,
+                    rgba(0, 0, 0, 0),
+                    #151515
+                  ),
+                  url('img/f-1.jpg');
+              ">
+                        <img class="featured-title2" src="img/f-t-1.png" alt="" />
+                        <p class="featured-desc2">
+                            Django Unchained (/ˈdʒæŋɡoʊ/) is a 2012 American Revisionist
+                            Western film written and directed by Quentin Tarantino, starring
+                            Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry
+                            Washington, and Samuel L. Jackson, with Walton Goggins, Dennis
+                            Christopher, James Remar, Michael Parks, and Don Johnson in
+                            supporting roles. Set in the Old West and Antebellum South, it
+                            is a highly-stylized, heavily-revisionist tribute to Spaghetti
+                            Westerns, in particular the 1966 Italian film Django by Sergio
+                            Corbucci, whose star Franco Nero has a cameo appearance.
+                            Development of Django Unchained began in 2007 when Tarantino was
+                            writing a book on Corbucci. By April 2011, Tarantino sent his
+                            final draft of the script to The Weinstein Company. Casting
+                            began in the summer of 2011, with Michael K. Williams and Will
+                            Smith being considered for the role of the title character
+                            before Foxx was cast. Principal photography took place from
+                            November 2011 to March 2012 in California, Wyoming, and
+                            Louisiana.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <span class="close2">&times;</span>
+            <div class="container2">
+                <div class="content-container2">
+                    <div class="featured-content2" style="
+                  background: linear-gradient(
+                      to bottom,
+                      rgba(0, 0, 0, 0),
+                      #151515
+                    ),
+                    url('img/f-2.jpg');
+                ">
+                        <img class="featured-title2" src="img/f-t-2.png" alt="" />
+                        <p class="featured-desc2">
+                            When two children go missing in a small German town, its sinful past is exposed along with
+                            the double lives and fractured relationships that exist among four families as they search
+                            for the kids. The mystery-drama series introduces an intricate puzzle filled with twists
+                            that includes a web of curious characters, all of whom have a connection to the town's
+                            troubled history -- whether they know it or not. The story includes supernatural elements
+                            that tie back to the same town in 1986. "Dark" represents the first German original series
+                            produced for Netflix.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="mains" class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="img/f-t-2.png" alt="">
+                <p class="featured-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto illo dolor
+                    deserunt nam assumenda ipsa eligendi dolore, ipsum id fugiat quo enim impedit, laboriosam omnis
+                    minima voluptatibus incidunt. Accusamus, provident.</p>
+                <button id="myBtn2" class="featured-button">WATCH</button>
+
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/f-1.jpg" alt="">
+                            <span class="movie-list-item-title">Django</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <a>
+                                <button id="myBtn" class="movie-list-item-button">Watch</button>
+                            </a>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Star Wars</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/4.jpg" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/5.jpg" alt="">
+                            <span class="movie-list-item-title">Avengers</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/6.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/7.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/8.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/9.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/10.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/11.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/12.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/13.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/2.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/14.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/15.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. At
+                                hic fugit similique accusantium.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+</body>
+<script>
+    var modal = document.getElementById("myModal");
+    var modal2 = document.getElementById("myModal2");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    var btn2 = document.getElementById("myBtn2");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    var span2 = document.getElementsByClassName("close2")[0];
+
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    };
+
+    btn2.onclick = function () {
+        modal2.style.display = "block";
+    };
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.style.display = "none";
+    };
+    span2.onclick = function () {
+        modal2.style.display = "none";
+    };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    };
+
+    window.onclick = function (event) {
+        if (event.target == modal2) {
+            modal2.style.display = "none";
+        }
+    };
+
+    const arrows = document.querySelectorAll(".arrow");
+    const movieLists = document.querySelectorAll(".movie-list");
+
+    arrows.forEach((arrow, i) => {
+        const itemNumber = movieLists[i].querySelectorAll("img").length;
+        let clickCounter = 0;
+        arrow.addEventListener("click", () => {
+            const ratio = Math.floor(window.innerWidth / 270);
+            clickCounter++;
+            if (itemNumber - (4 + clickCounter) + (4 - ratio) >= 0) {
+                movieLists[i].style.transform = `translateX(${
+            movieLists[i].computedStyleMap().get("transform")[0].x.value - 300
+        }px)`;
+            } else {
+                movieLists[i].style.transform = "translateX(0)";
+                clickCounter = 0;
+            }
+        });
+
+        console.log(Math.floor(window.innerWidth / 270));
+    });
+
+    //TOGGLE
+
+    const ball = document.querySelector(".toggle-ball");
+    const items = document.querySelectorAll(
+        ".container,.movie-list-title,.navbar-container,.sidebar,.left-menu-icon,.toggle"
+    );
+
+    ball.addEventListener("click", () => {
+        items.forEach((item) => {
+            item.classList.toggle("active");
+        });
+        ball.classList.toggle("active");
+    });
+</script>
+
+</html>
