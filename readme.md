@@ -1,4 +1,4 @@
-# Single Page Application Vanilla TypeScript
+# Single Page Application Vanilla Js
 
 ## Table of Contents
   - [Description](#description)
